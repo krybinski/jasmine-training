@@ -24,5 +24,10 @@ describe('Calculator', () => {
 	it('result of dividing 100 and 10 is equal 10', () => {
 		const result = calculator.divide(100, 10);
 		expect(result).toBe(10);
-	})
+	});
+
+	it('checks newCalc is instance of Calculator', function() {
+		const newCalc = new Calculator();
+		expect(newCalc instanceof Calculator).toBe(true);
+	});
 });
