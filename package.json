@@ -4,9 +4,7 @@
   "description": "Basic Jasmine testing framework training with some simple and basic examples",
   "private": true,
   "scripts": {
-		"tests": "jasmine",
-    "flow": "flow",
-    "flow:watch": "flow-watch"
+    "tests": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -19,8 +17,6 @@
   },
   "homepage": "https://github.com/krybinski/jasmine-training#readme",
   "devDependencies": {
-    "flow-bin": "^0.69.0",
-    "flow-watch": "^1.1.3",
     "jasmine": "^3.1.0"
   }
 }
