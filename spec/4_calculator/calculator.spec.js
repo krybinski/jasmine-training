@@ -6,6 +6,10 @@ describe('Calculator', () => {
 		calculator = new Calculator();
 	});
 
+	it('checks calculator is instance of Calculator', function() {
+		expect(calculator instanceof Calculator).toBe(true);
+	});
+
 	it('result of adding 4 and 5 is equal 9', () => {
 		const result = calculator.add(4, 5);
 		expect(result).toBe(9);
@@ -26,8 +30,8 @@ describe('Calculator', () => {
 		expect(result).toBe(10);
 	});
 
-	it('checks newCalc is instance of Calculator', function() {
-		const newCalc = new Calculator();
-		expect(newCalc instanceof Calculator).toBe(true);
+	it('result of powering 2 to 4 is equal 16', () => {
+		const result = calculator.power(2, 4);
+		expect(result).toBe(16);
 	});
 });

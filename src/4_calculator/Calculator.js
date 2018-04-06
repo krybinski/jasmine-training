@@ -14,6 +14,10 @@ class Calculator {
 	divide(a, b) {
 		return a / b;
 	}
+
+	power(a, pow) {
+		return Math.pow(a, pow);
+	}
 }
 
 module.exports = Calculator;
