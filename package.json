@@ -1,0 +1,24 @@
+{
+  "name": "jasmine-training",
+  "version": "1.0.0",
+  "description": "Basic Jasmine testing framework training with some simple and basic examples",
+  "private": true,
+  "scripts": {
+    "flow": "flow",
+    "flow:watch": "flow-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krybinski/jasmine-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krybinski/jasmine-training/issues"
+  },
+  "homepage": "https://github.com/krybinski/jasmine-training#readme",
+  "devDependencies": {
+    "flow-bin": "^0.69.0",
+    "flow-watch": "^1.1.3"
+  }
+}
